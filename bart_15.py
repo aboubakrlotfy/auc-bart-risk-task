@@ -39,8 +39,8 @@ def add_signup_instructions(frame):
 
 
 # === CONFIG ===
-SUPABASE_URL = # Write your Supabase URL here
-SUPABASE_API_KEY = # Write your Supabase API Key here
+SUPABASE_URL = "" # Write your Supabase URL here
+SUPABASE_API_KEY = "" # Write your Supabase API Key here
 
 PRACTICE_ROUNDS = 5
 BASELINE_ROUNDS = 15
