@@ -1,10 +1,8 @@
 # 🎈 Time Pressure and Risk-Taking: A BART-Based Experiment
 
-This repository contains the materials, executable, raw data, and analysis code for a psychology experiment conducted at the American University in Cairo (AUC). The experiment investigates how **time pressure affects risk-taking behavior** using the **Balloon Analogue Risk Task (BART)**.
+This repository contains the materials, executable, raw data, and analysis code for a psychology experiment conducted at the American University in Cairo (AUC). The experiment investigates how **time pressure affects risk-taking in decision-making** using the **Balloon Analogue Risk Task (BART)**.
 
----
-
-## 📁 Repository Structure
+## Repository Structure
 <pre>
   data
   ├── participants_raw.csv # Raw participant demographics and contextual data
@@ -19,9 +17,7 @@ This repository contains the materials, executable, raw data, and analysis code 
   bart_15_new.exe # Standalone Windows executable used by participants   
 </pre>
 
----
-
-## 🧪 Experiment Summary
+## Experiment Summary
 
 Participants completed two versions of the BART, with randomly assigned order per gender. There was a 15min break between conditions:
 - **Baseline Condition** — No time pressure  
@@ -29,9 +25,7 @@ Participants completed two versions of the BART, with randomly assigned order pe
 
 The **risk-adjusted score** was used to quantify risk-taking, calculated as the average number of pumps on balloons that did not explode.
 
----
-
-## 📊 Key Outputs
+## Key Outputs
 
 All statistical analyses and visualizations are located in the `/data_analysis/` folder. These include:
 
@@ -44,8 +38,6 @@ All statistical analyses and visualizations are located in the `/data_analysis/`
   - Sleep  
   - Submission time  
 - **Appendix A** (`appendix_a_cleaned_data.csv`) contains cleaned, participant-level results for transparency and reference.
-
----
 
 ## 📎 Citation & Use
 
