@@ -1,0 +1,21 @@
+Participant ID	Baseline Score	Time Pressure Score	Δ Risk Score	Gender	Standing	Major	Sleep Hours	Stress Level	Caffeine Today	Submission Hour
+13356886	14.42	14.0	-0.42	Male	Junior	electronics and communication (STEM)	6.0	Stressed	False	23
+13561597	10.14	9.29	-0.86	Female	Freshman	Undeclared (ECLT)	4.0	Stressed	True	12
+13999315	22.22	22.5	0.28	Male	Freshman	Undeclared	3.0	Relaxed	True	12
+14265799	10.21	20.55	10.33	Female	Freshman	Computer Engineer (STEM)	5.0	Stressed	False	11
+21668732	15.18	13.0	-2.18	Male	Freshman	DATA SCIENCE (STEM)	6.0	Relaxed	False	13
+22575562	17.91	20.2	2.29	Female	Sophomore	psychology	7.0	Stressed	False	14
+23756669	10.64	11.71	1.07	Male	Junior	Mechanical Engineering (STEM)	5.0	Relaxed	True	10
+24942603	22.2	17.18	-5.02	Male	Junior	history	7.0	Stressed	True	23
+28728463	26.38	23.25	-3.12	Male	Senior	accounting	2.5	Relaxed	False	10
+39345092	24.0	23.0	-1.0	Male	Sophomore	mechanical eng (STEM)	5.0	Relaxed	False	14
+39958838	14.73	23.67	8.94	Female	Freshman	Architecture (STEM)	7.0	Relaxed	False	23
+41227216	14.75	11.75	-3.0	Female	Junior	biology (STEM)	5.0	Stressed	True	14
+42868828	18.73	19.58	0.86	Male	Freshman	Computer Engineering (STEM)	8.0	Relaxed	False	21
+46913810	11.64	10.13	-1.51	Male	Freshman	Eng. (STEM)	9.0	Relaxed	True	18
+66629388	20.4	8.87	-11.53	Male	Senior	Political Science 	6.0	Relaxed	True	15
+77827638	12.92	16.0	3.08	Male	Senior	Mict 	8.0	Relaxed	True	16
+83197857	24.67	20.09	-4.58	Male	Freshman	Compuer Science (STEM)	7.0	Relaxed	False	12
+89254563	22.55	23.12	0.58	Female	Freshman	undeclared (MASCOM)	6.0	Relaxed	True	14
+90801586	18.18	20.73	2.55	Male	Junior	economics	4.0	Stressed	False	16
+95822412	15.64	13.67	-1.97	Male	Junior	MICT	5.0	Relaxed	False	22
