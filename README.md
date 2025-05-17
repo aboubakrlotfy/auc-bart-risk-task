@@ -19,7 +19,7 @@ This repository contains the materials, executable, raw data, and analysis code 
 
 ## Experiment Summary
 
-Participants completed two versions of the BART, with randomly assigned order per gender. There was a 15min break between conditions:
+Participants completed two versions of the BART, with randomly assigned order per gender. There was a 5 min break between conditions:
 - **Baseline Condition** — No time pressure  
 - **Time-Pressure Condition** — 15-second limit per round  
 
