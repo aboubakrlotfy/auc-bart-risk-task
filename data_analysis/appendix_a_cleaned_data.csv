@@ -1,4 +1,4 @@
-participant_id,gender,major,standing,caffeine_today,sleep_hours,stress_level,submission_hour,baseline,pressure,delta_risk_score
+Participant ID,Gender,Major,Academic Standing,Caffeine Today,Sleep Hours,Stress Level,Submission Hour,Baseline Risk-Adjusted Score,Time Pressure Risk-Adjusted Score,Δ Risk-Adjusted Score
 13356886,Male,electronics and communication (STEM),Junior,False,6.0,Stressed,23,14.42,14.0,-0.42
 13561597,Female,Undeclared (ECLT),Freshman,True,4.0,Stressed,12,10.14,9.29,-0.86
 13999315,Male,Undeclared,Freshman,True,3.0,Relaxed,12,22.22,22.5,0.28

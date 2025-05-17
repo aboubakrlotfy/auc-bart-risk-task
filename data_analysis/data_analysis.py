@@ -116,15 +116,26 @@ plt.close()
 # Export Cleaned Participant-Level Data for Appendix A 
 
 # Select and organize data columns for Appendix A
-columns_to_export = [
-    "participant_id", "gender", "major", "standing", "caffeine_today",
-    "sleep_hours", "stress_level", "submission_hour",
-    "baseline", "pressure", "delta_risk_score"
-]
+columns_to_export = {
+    "participant_id": "Participant ID",
+    "gender": "Gender",
+    "major": "Major",
+    "standing": "Academic Standing",
+    "caffeine_today": "Caffeine Today",
+    "sleep_hours": "Sleep Hours",
+    "stress_level": "Stress Level",
+    "submission_hour": "Submission Hour",
+    "baseline": "Baseline Risk-Adjusted Score",
+    "pressure": "Time Pressure Risk-Adjusted Score",
+    "delta_risk_score": "Δ Risk-Adjusted Score"
+}
 
-# Create a clean table sorted by participant_id
-cleaned_data_export = analysis_df[columns_to_export].sort_values("participant_id")
-cleaned_data_export = cleaned_data_export.round(2)
-
-# Save as CSV (for Appendix A)
-cleaned_data_export.to_csv("appendix_a_cleaned_data.csv", index=False)
+# Select, rename, sort, and round
+appendix_export = (
+    analysis_df[list(columns_to_export.keys())]
+    .rename(columns=columns_to_export)
+    .sort_values("Participant ID")
+    .round(2)
+)
+# Save cleaned dataset
+appendix_export.to_csv("appendix_a_cleaned_data.csv", index=False)
