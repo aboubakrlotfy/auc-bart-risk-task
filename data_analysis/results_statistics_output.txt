@@ -16,7 +16,7 @@ Dep. Variable:       delta_risk_score   R-squared:                       0.224
 Model:                            OLS   Adj. R-squared:                  0.180
 Method:                 Least Squares   F-statistic:                     5.185
 Date:                Sun, 18 May 2025   Prob (F-statistic):             0.0352
-Time:                        01:01:33   Log-Likelihood:                -56.281
+Time:                        01:11:09   Log-Likelihood:                -56.281
 No. Observations:                  20   AIC:                             116.6
 Df Residuals:                      18   BIC:                             118.6
 Df Model:                           1                                         
@@ -43,7 +43,7 @@ Dep. Variable:       delta_risk_score   R-squared:                       0.161
 Model:                            OLS   Adj. R-squared:                  0.004
 Method:                 Least Squares   F-statistic:                     1.023
 Date:                Sun, 18 May 2025   Prob (F-statistic):              0.409
-Time:                        01:01:33   Log-Likelihood:                -57.058
+Time:                        01:11:09   Log-Likelihood:                -57.058
 No. Observations:                  20   AIC:                             122.1
 Df Residuals:                      16   BIC:                             126.1
 Df Model:                           3                                         
@@ -72,7 +72,7 @@ Dep. Variable:       delta_risk_score   R-squared:                       0.059
 Model:                            OLS   Adj. R-squared:                  0.007
 Method:                 Least Squares   F-statistic:                     1.128
 Date:                Sun, 18 May 2025   Prob (F-statistic):              0.302
-Time:                        01:01:33   Log-Likelihood:                -58.204
+Time:                        01:11:09   Log-Likelihood:                -58.204
 No. Observations:                  20   AIC:                             120.4
 Df Residuals:                      18   BIC:                             122.4
 Df Model:                           1                                         
@@ -99,7 +99,7 @@ Dep. Variable:       delta_risk_score   R-squared:                       0.001
 Model:                            OLS   Adj. R-squared:                 -0.054
 Method:                 Least Squares   F-statistic:                   0.02055
 Date:                Sun, 18 May 2025   Prob (F-statistic):              0.888
-Time:                        01:01:33   Log-Likelihood:                -58.801
+Time:                        01:11:09   Log-Likelihood:                -58.801
 No. Observations:                  20   AIC:                             121.6
 Df Residuals:                      18   BIC:                             123.6
 Df Model:                           1                                         
@@ -126,7 +126,7 @@ Dep. Variable:       delta_risk_score   R-squared:                       0.031
 Model:                            OLS   Adj. R-squared:                 -0.023
 Method:                 Least Squares   F-statistic:                    0.5774
 Date:                Sun, 18 May 2025   Prob (F-statistic):              0.457
-Time:                        01:01:33   Log-Likelihood:                -58.496
+Time:                        01:11:09   Log-Likelihood:                -58.496
 No. Observations:                  20   AIC:                             121.0
 Df Residuals:                      18   BIC:                             123.0
 Df Model:                           1                                         
@@ -153,7 +153,7 @@ Dep. Variable:       delta_risk_score   R-squared:                       0.102
 Model:                            OLS   Adj. R-squared:                  0.052
 Method:                 Least Squares   F-statistic:                     2.048
 Date:                Sun, 18 May 2025   Prob (F-statistic):              0.170
-Time:                        01:01:33   Log-Likelihood:                -57.735
+Time:                        01:11:09   Log-Likelihood:                -57.735
 No. Observations:                  20   AIC:                             119.5
 Df Residuals:                      18   BIC:                             121.5
 Df Model:                           1                                         
@@ -180,7 +180,7 @@ Dep. Variable:       delta_risk_score   R-squared:                       0.001
 Model:                            OLS   Adj. R-squared:                 -0.054
 Method:                 Least Squares   F-statistic:                   0.02141
 Date:                Sun, 18 May 2025   Prob (F-statistic):              0.885
-Time:                        01:01:33   Log-Likelihood:                -58.800
+Time:                        01:11:09   Log-Likelihood:                -58.800
 No. Observations:                  20   AIC:                             121.6
 Df Residuals:                      18   BIC:                             123.6
 Df Model:                           1                                         
