@@ -11,7 +11,6 @@ import time
 import os
 import sys
 import pygame
-from dotenv import load_dotenv
 
 pygame.mixer.init()
 
@@ -40,9 +39,8 @@ def add_signup_instructions(frame):
 
 
 # === CONFIG ===
-load_dotenv()  # Loads .env into environment variables
-SUPABASE_URL = os.getenv("SUPABASE_URL")
-SUPABASE_API_KEY = os.getenv("SUPABASE_API_KEY")
+SUPABASE_URL = # Write your Supabase URL here
+SUPABASE_API_KEY = # Write your Supabase API Key here
 
 PRACTICE_ROUNDS = 5
 BASELINE_ROUNDS = 15
@@ -53,8 +51,6 @@ BREAK_SECONDS = 300
 BALLOON_MAX_SIZE = 240  
 BALLOON_ORIGINAL_SIZE = 52 # Starting Size
 BALLOON_GROWTH = 2
-
-random.seed(42)  # Same seed = same random behavior
 
 class BARTApp:
     def __init__(self, root):
