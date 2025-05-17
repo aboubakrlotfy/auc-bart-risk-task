@@ -1,6 +1,4 @@
-# 🎈 BART Study - AUC Scientific Thinking Project
-
-# Time Pressure and Risk-Taking: A BART-Based Experiment
+# 🎈 Time Pressure and Risk-Taking: A BART-Based Experiment
 
 This repository contains the materials, executable, raw data, and analysis code for a psychology experiment conducted at the American University in Cairo (AUC). The experiment investigates how **time pressure affects risk-taking behavior** using the **Balloon Analogue Risk Task (BART)**.
 
