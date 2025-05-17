@@ -1,0 +1,201 @@
+Descriptive Statistics (Table 1):
+                   mean   std  median    min    max  count   mode
+baseline          17.38  5.11   16.77  10.14  26.38   20.0  10.14
+pressure          17.11  5.16   18.38   8.87  23.67   20.0   8.87
+delta_risk_score  -0.26  4.70   -0.64 -11.53  10.33   20.0 -11.53
+
+Paired t-test:
+t = 0.25, p = 0.8065
+
+Moderation Analyses:
+
+--- Moderation by gender ---
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:       delta_risk_score   R-squared:                       0.224
+Model:                            OLS   Adj. R-squared:                  0.180
+Method:                 Least Squares   F-statistic:                     5.185
+Date:                Sun, 18 May 2025   Prob (F-statistic):             0.0352
+Time:                        00:54:14   Log-Likelihood:                -56.281
+No. Observations:                  20   AIC:                             116.6
+Df Residuals:                      18   BIC:                             118.6
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==================================================================================
+                     coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------
+Intercept          3.0473      1.737      1.755      0.096      -0.601       6.696
+gender[T.Male]    -4.7261      2.076     -2.277      0.035      -9.087      -0.365
+==============================================================================
+Omnibus:                        1.155   Durbin-Watson:                   2.746
+Prob(Omnibus):                  0.561   Jarque-Bera (JB):                0.479
+Skew:                          -0.378   Prob(JB):                        0.787
+Kurtosis:                       3.055   Cond. No.                         3.42
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+--- Moderation by standing ---
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:       delta_risk_score   R-squared:                       0.161
+Model:                            OLS   Adj. R-squared:                  0.004
+Method:                 Least Squares   F-statistic:                     1.023
+Date:                Sun, 18 May 2025   Prob (F-statistic):              0.409
+Time:                        00:54:14   Log-Likelihood:                -57.058
+No. Observations:                  20   AIC:                             122.1
+Df Residuals:                      16   BIC:                             126.1
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================
+                            coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------
+Intercept                 1.3177      1.564      0.843      0.412      -1.997       4.632
+standing[T.Junior]       -2.4490      2.472     -0.991      0.337      -7.690       2.792
+standing[T.Senior]       -5.1782      3.127     -1.656      0.117     -11.807       1.451
+standing[T.Sophomore]    -0.6723      3.667     -0.183      0.857      -8.445       7.101
+==============================================================================
+Omnibus:                        1.482   Durbin-Watson:                   2.868
+Prob(Omnibus):                  0.477   Jarque-Bera (JB):                0.926
+Skew:                           0.522   Prob(JB):                        0.630
+Kurtosis:                       2.851   Cond. No.                         4.18
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+--- Moderation by is_stem ---
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:       delta_risk_score   R-squared:                       0.059
+Model:                            OLS   Adj. R-squared:                  0.007
+Method:                 Least Squares   F-statistic:                     1.128
+Date:                Sun, 18 May 2025   Prob (F-statistic):              0.302
+Time:                        00:54:14   Log-Likelihood:                -58.204
+No. Observations:                  20   AIC:                             120.4
+Df Residuals:                      18   BIC:                             122.4
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     -1.3733      1.481     -0.927      0.366      -4.485       1.738
+is_stem        2.2247      2.094      1.062      0.302      -2.175       6.625
+==============================================================================
+Omnibus:                        0.849   Durbin-Watson:                   2.558
+Prob(Omnibus):                  0.654   Jarque-Bera (JB):                0.101
+Skew:                           0.126   Prob(JB):                        0.951
+Kurtosis:                       3.240   Cond. No.                         2.62
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+--- Moderation by sleep_hours ---
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:       delta_risk_score   R-squared:                       0.001
+Model:                            OLS   Adj. R-squared:                 -0.054
+Method:                 Least Squares   F-statistic:                   0.02055
+Date:                Sun, 18 May 2025   Prob (F-statistic):              0.888
+Time:                        00:54:14   Log-Likelihood:                -58.801
+No. Observations:                  20   AIC:                             121.6
+Df Residuals:                      18   BIC:                             123.6
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+Intercept      -0.8033      3.934     -0.204      0.840      -9.069       7.462
+sleep_hours     0.0939      0.655      0.143      0.888      -1.282       1.470
+==============================================================================
+Omnibus:                        3.136   Durbin-Watson:                   2.367
+Prob(Omnibus):                  0.208   Jarque-Bera (JB):                1.407
+Skew:                           0.180   Prob(JB):                        0.495
+Kurtosis:                       4.249   Cond. No.                         22.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+--- Moderation by stress_level ---
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:       delta_risk_score   R-squared:                       0.031
+Model:                            OLS   Adj. R-squared:                 -0.023
+Method:                 Least Squares   F-statistic:                    0.5774
+Date:                Sun, 18 May 2025   Prob (F-statistic):              0.457
+Time:                        00:54:14   Log-Likelihood:                -58.496
+No. Observations:                  20   AIC:                             121.0
+Df Residuals:                      18   BIC:                             123.0
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+============================================================================================
+                               coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------
+Intercept                   -0.8534      1.318     -0.648      0.525      -3.622       1.916
+stress_level[T.Stressed]     1.6927      2.228      0.760      0.457      -2.988       6.373
+==============================================================================
+Omnibus:                        2.334   Durbin-Watson:                   2.483
+Prob(Omnibus):                  0.311   Jarque-Bera (JB):                0.786
+Skew:                           0.180   Prob(JB):                        0.675
+Kurtosis:                       3.902   Cond. No.                         2.42
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+--- Moderation by caffeine_today ---
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:       delta_risk_score   R-squared:                       0.102
+Model:                            OLS   Adj. R-squared:                  0.052
+Method:                 Least Squares   F-statistic:                     2.048
+Date:                Sun, 18 May 2025   Prob (F-statistic):              0.170
+Time:                        00:54:14   Log-Likelihood:                -57.735
+No. Observations:                  20   AIC:                             119.5
+Df Residuals:                      18   BIC:                             121.5
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==========================================================================================
+                             coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+Intercept                  1.0631      1.379      0.771      0.451      -1.835       3.961
+caffeine_today[T.True]    -2.9423      2.056     -1.431      0.170      -7.262       1.377
+==============================================================================
+Omnibus:                        0.675   Durbin-Watson:                   2.587
+Prob(Omnibus):                  0.714   Jarque-Bera (JB):                0.069
+Skew:                           0.125   Prob(JB):                        0.966
+Kurtosis:                       3.143   Cond. No.                         2.52
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+--- Moderation by submission_hour ---
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:       delta_risk_score   R-squared:                       0.001
+Model:                            OLS   Adj. R-squared:                 -0.054
+Method:                 Least Squares   F-statistic:                   0.02141
+Date:                Sun, 18 May 2025   Prob (F-statistic):              0.885
+Time:                        00:54:14   Log-Likelihood:                -58.800
+No. Observations:                  20   AIC:                             121.6
+Df Residuals:                      18   BIC:                             123.6
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+Intercept          -0.8273      4.018     -0.206      0.839      -9.269       7.615
+submission_hour     0.0362      0.247      0.146      0.885      -0.483       0.556
+==============================================================================
+Omnibus:                        3.102   Durbin-Watson:                   2.385
+Prob(Omnibus):                  0.212   Jarque-Bera (JB):                1.373
+Skew:                           0.189   Prob(JB):                        0.503
+Kurtosis:                       4.226   Cond. No.                         60.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

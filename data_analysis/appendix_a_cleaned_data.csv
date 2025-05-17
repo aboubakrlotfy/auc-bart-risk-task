@@ -1,0 +1,21 @@
+participant_id,gender,major,standing,caffeine_today,sleep_hours,stress_level,submission_hour,baseline,pressure,delta_risk_score
+13356886,Male,electronics and communication (STEM),Junior,False,6.0,Stressed,23,14.42,14.0,-0.42
+13561597,Female,Undeclared (ECLT),Freshman,True,4.0,Stressed,12,10.14,9.29,-0.86
+13999315,Male,Undeclared,Freshman,True,3.0,Relaxed,12,22.22,22.5,0.28
+14265799,Female,Computer Engineer (STEM),Freshman,False,5.0,Stressed,11,10.21,20.55,10.33
+21668732,Male,DATA SCIENCE (STEM),Freshman,False,6.0,Relaxed,13,15.18,13.0,-2.18
+22575562,Female,psychology,Sophomore,False,7.0,Stressed,14,17.91,20.2,2.29
+23756669,Male,Mechanical Engineering (STEM),Junior,True,5.0,Relaxed,10,10.64,11.71,1.07
+24942603,Male,history,Junior,True,7.0,Stressed,23,22.2,17.18,-5.02
+28728463,Male,accounting,Senior,False,2.5,Relaxed,10,26.38,23.25,-3.12
+39345092,Male,mechanical eng (STEM),Sophomore,False,5.0,Relaxed,14,24.0,23.0,-1.0
+39958838,Female,Architecture (STEM),Freshman,False,7.0,Relaxed,23,14.73,23.67,8.94
+41227216,Female,biology (STEM),Junior,True,5.0,Stressed,14,14.75,11.75,-3.0
+42868828,Male,Computer Engineering (STEM),Freshman,False,8.0,Relaxed,21,18.73,19.58,0.86
+46913810,Male,Eng. (STEM),Freshman,True,9.0,Relaxed,18,11.64,10.13,-1.51
+66629388,Male,Political Science ,Senior,True,6.0,Relaxed,15,20.4,8.87,-11.53
+77827638,Male,Mict ,Senior,True,8.0,Relaxed,16,12.92,16.0,3.08
+83197857,Male,Compuer Science (STEM),Freshman,False,7.0,Relaxed,12,24.67,20.09,-4.58
+89254563,Female,undeclared (MASCOM),Freshman,True,6.0,Relaxed,14,22.55,23.12,0.58
+90801586,Male,economics,Junior,False,4.0,Stressed,16,18.18,20.73,2.55
+95822412,Male,MICT,Junior,False,5.0,Relaxed,22,15.64,13.67,-1.97

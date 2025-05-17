@@ -1,0 +1,21 @@
+participant_id,age,gender,major,standing,stress_level,sleep_hours,caffeine_today,caffeine_amount,start_condition,submission_time,id,completed
+39958838,19,Female,Architecture (STEM),Freshman,Relaxed,7,false,0,baseline_first,2025-05-09 20:00:31.869406+00,264406dd-e129-4e73-aaf1-6f6ecce0f99b,true
+95822412,20,Male,MICT,Junior,Relaxed,5,false,0,baseline_first,2025-05-07 19:06:55.163689+00,35f3f536-80d7-44ae-811c-a59d6f1f19a0,true
+13561597,18,Female,Undeclared (ECLT),Freshman,Stressed,4,true,2 cups,pressure_first,2025-05-15 09:42:30.279734+00,471886fb-ed64-480c-ad38-2e9e14b5f2ea,true
+42868828,19,Male,Computer Engineering (STEM),Freshman,Relaxed,8,false,0,baseline_first,2025-05-08 18:16:10.389218+00,49312a87-8057-4ea0-9d43-09c06db87f89,true
+13999315,18,Male,Undeclared,Freshman,Relaxed,3,true,3 cups,baseline_first,2025-05-12 09:45:52.657553+00,5a4b153d-2664-418b-88ff-93dac0c3ebf2,true
+41227216,21,Female,biology (STEM),Junior,Stressed,5,true,2 cups,baseline_first,2025-05-14 11:36:41.314293+00,60b66298-1c76-4500-9327-ce5642e1d107,true
+23756669,21,Male,Mechanical Engineering (STEM),Junior,Relaxed,5,true,1 cup,baseline_first,2025-05-11 07:32:00.819905+00,65901c03-bc10-4012-8a12-2a87962f0da0,true
+89254563,18,Female,undeclared (MASCOM),Freshman,Relaxed,6,true,1 cup,pressure_first,2025-05-11 11:13:24.76499+00,7f7e03ef-60e8-4313-8a28-9569e3df0e52,true
+66629388,22,Male,"Political Science ",Senior,Relaxed,6,true,1 cup,pressure_first,2025-05-11 12:23:03.946748+00,896a8c51-d124-4a71-b0d6-4496ac6e4f88,true
+14265799,18,Female,Computer Engineer (STEM),Freshman,Stressed,5,false,0,baseline_first,2025-05-12 08:20:51.909251+00,8a04ab4b-fb7c-4e4d-8949-30ab920d77a5,true
+46913810,21,Male,Eng. (STEM),Freshman,Relaxed,9,true,2 cups,pressure_first,2025-05-08 15:48:47.993607+00,8b3912af-9ef4-4380-a5ee-28c5887d6290,true
+21668732,18,Male,DATA SCIENCE (STEM),Freshman,Relaxed,6,false,0,baseline_first,2025-05-11 10:36:58.425241+00,94a29660-d217-4043-8847-656eee80f8d7,true
+90801586,19,Male,economics,Junior,Stressed,4,false,0,pressure_first,2025-05-14 13:54:34.458943+00,9b5a4737-0011-4f85-a317-17f406f641f4,true
+22575562,20,Female,psychology,Sophomore,Stressed,7,false,0,pressure_first,2025-05-12 11:25:20.785567+00,bacd433a-1b25-4b96-812d-1a972f4bdcb3,true
+13356886,20,Male,electronics and communication (STEM),Junior,Stressed,6,false,0,baseline_first,2025-05-07 20:50:58.659486+00,c059001f-ea4e-44e5-a679-ef8339779782,true
+39345092,20,Male,mechanical eng (STEM),Sophomore,Relaxed,5,false,0,pressure_first,2025-05-14 11:33:11.412773+00,c0675938-a4ba-41c7-9284-d50cee773792,true
+28728463,22,Male,accounting,Senior,Relaxed,2.5,false,0,pressure_first,2025-05-11 07:16:59.716725+00,c21dc09a-7545-4202-a9e5-69df13a7c570,true
+24942603,23,Male,history,Junior,Stressed,7,true,1 cup,pressure_first,2025-05-07 20:50:02.162863+00,eaf4b080-b3c5-463e-bef1-d68d1915dce6,true
+83197857,19,Male,Compuer Science (STEM),Freshman,Relaxed,7,false,0,pressure_first,2025-05-11 09:58:46.529497+00,f841def4-db50-43bb-8b1d-c07f25735a9d,true
+77827638,21,Male,"Mict ",Senior,Relaxed,8,true,1 cup,baseline_first,2025-05-14 13:43:06.349308+00,fd85c200-b0ad-4974-86ae-9bfb332fcd21,true
