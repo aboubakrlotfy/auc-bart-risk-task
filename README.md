@@ -7,17 +7,19 @@ This repository contains the materials, executable, raw data, and analysis code 
 ---
 
 ## 📁 Repository Structure
-bart_15.py # Source code for building the experiment
-bart_15_new.exe # Standalone Windows executable used by participants
-data/
-├── participants_raw.csv # Raw participant demographics and contextual data
-├── responses_raw.csv # Raw BART task responses per trial
-data_analysis/
-├── data_analysis.py # Full analysis script (stats + plots)
-├── results_statistics_output.txt # Text report: stats, t-test, regression
-├── appendix_a_cleaned_data.csv # ✅ Appendix A: participant-level scores & variables
-├── boxplot_risk_scores.png # Visualization: risk scores by condition
-└── histogram_delta_scores.png # Visualization: Δ risk score distribution
+<pre>
+  data
+  ├── participants_raw.csv # Raw participant demographics and contextual data
+  └── responses_raw.csv # Raw BART task responses per trial data_analysis
+  data_analysis
+  ├── data_analysis.py # Full analysis script (stats + plots)
+  ├── results_statistics_output.txt # Text report: stats, t-test, regression 
+  ├── appendix_a_cleaned_data.csv # Appendix A: participant-level scores & variables 
+  ├── boxplot_risk_scores.png # Risk scores by condition (boxplot) 
+  └── histogram_delta_scores.png # Δ risk score distribution (histogram)
+  bart_15.py # Source code for building the experiment 
+  bart_15_new.exe # Standalone Windows executable used by participants   
+</pre>
 
 ---
 
