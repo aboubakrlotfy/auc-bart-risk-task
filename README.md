@@ -1,14 +1,10 @@
 # 🎈 BART Study - AUC Scientific Thinking Project
 
-Thank you for helping us with our Scientific Thinking group project at AUC!
-
 ## What is this?
 
 This is a small game we developed for a class research project to explore how time pressure affects decision-making.
 You'll be asked to pump virtual balloons to earn money — but if the balloon pops, you lose it all!
 One round is under normal conditions, and the other with a time limit.
-
-    The top performer wins a 600 EGP prize! 🎉
 
 ## Is it safe?
 
