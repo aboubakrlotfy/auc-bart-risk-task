@@ -59,8 +59,8 @@ with open("results_statistics_output.txt", "w") as out:
         out.write("\n")
 
 # Colors
-baseline_color = "#E69F00"  # orangey-yellow
-pressure_color = "#D55E00"  # reddish-orange
+baseline_color = "#DFA320"  # orangey-yellow
+pressure_color = "#DA713B"  # reddish-orange
 
 # Boxplot: Baseline vs. Pressure
 plt.figure(figsize=(8, 6))
@@ -100,8 +100,7 @@ sns.histplot(
     analysis_df["delta_risk_score"],
     kde=True,
     bins=10,
-    color="#ffd67f",
-    line_kws={"color": "#ffb413", "linewidth": 2}
+    color="#ffb347",
 )
 plt.axvline(0, color='red', linestyle='--', label='No Change (Δ = 0)')
 plt.legend(loc='upper right')  
